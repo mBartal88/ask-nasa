@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #333;
+}
+
+
+.baseImage {
+    display: block;
+    margin: 0 auto;
+}
+
+.Home {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.explanation {
+    text-align: justify;
+}
+
+.gallery {
+  width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 20px;
+}
+
+.flex-container > div {
+    width: 20%;
+}
+
+
+.Nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Nav ul {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Nav li {
+    padding: 1rem;
+}
+
+.Nav li:hover,
+.Nav li:focus {
+    padding: 1rem;
+}
+
+.Nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a {
+    background-color: #eee;
+    color: #333;
+}
+
+.Nav li:hover a,
+.Nav li:focus a {
+    cursor: pointer;
+}
+
+.modal {
+    width: 10%;
+}
